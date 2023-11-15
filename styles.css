@@ -6,26 +6,6 @@ body {
     padding: 20px 40px; /* Increase spacing between the edges and content */
 }
 
-.card {
-    background-color: #fff;
-    border: 1px solid #888; /* A different shade of gray for the border */
-    border-radius: 10px; /* Stronger border radius */
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Slight shadow */
-    padding: 0px 40px 20px; /* Increase spacing between edges and content */
-    margin: 75px 0; /* Reduce vertical spacing between cards */
-    position: relative;
-}
-
-.first-card {
-    background-image: url('img/Header_Img.jpg');
-    background-size: cover;
-    background-position: center;
-    background-color: rgba(224, 222, 223, 0.7);
-    border-radius: 10px; /* Rounded edges for the first card */
-	position: relative; /* Keep the card relative */
-	margin-top: 25px !important;
-}
-
 .overlay {
     background-color: #4950BC;
     opacity: 0.6;
@@ -34,7 +14,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    border-radius: 10px; /* Rounded edges for the overlay */
+    border-radius: 5px; /* Rounded edges for the overlay */
 }
 
 .white-title {
@@ -45,6 +25,7 @@ body {
 	position: relative; /* Make the title relative */
     z-index: 2; /* Set a higher z-index to appear above the overlay */
 	margin-bottom: 25px;
+	padding-top: 20px;
 }
 
 .white-paragraph {
@@ -54,8 +35,10 @@ body {
 	text-align: left;
 }
 
-h2, h3 {
-    text-align: center;
+.card {
+    border: 1px solid #888; /* A different shade of gray for the border */
+    border-radius: 10px; /* Stronger border radius */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Slight shadow */
 }
 
 .card h2 {
@@ -73,124 +56,76 @@ h2, h3 {
     font-size: 18px; /* Adjust the size as needed */
 }
 
-.black-title {
-    color: #000;
+.dropdown-btn {
+  width: 100%;
+  text-align: left;
+  background-color: #dadbf1;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  transition: border-radius 0.3s;
 }
 
-.card:nth-child(3) .sub-cards-container {
-    display: flex;
-    justify-content: center;
+.dropdown-btn:hover {
+  border-radius: 10px;
 }
 
-.card:nth-child(3) .sub-card {
-    background-color: #dadbf1;
-    padding: 0px 10px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    flex: 0 0 calc(50% - 25px); /* Adjusted width calculation for two equal-width sub-cards */
-    margin: 10px;
-    text-align: left;
+.dropdown-section {
+  padding: 10px;
 }
 
-
-.toggle {
-    background-color: #dadbf1;
-    margin: 10px;
-	border-radius: 5px;
-    transition: background-color 0.3s, border-radius 0.3s;
-    padding: 5px 10px;
+.collapse.show .dropdown-btn i {
+  transform: rotate(90deg);
 }
 
-.toggle:hover {
-    border-radius: 20px; /* Increase border radius on hover */
+.rotated::after {
+  transform: rotate(180deg);
 }
 
-.toggle h3 {
-    cursor: pointer;
-    position: relative;
-    padding: 10px;
-    margin: 0;
-    background-color: #dadbf1;
-    user-select: none;
-	text-align: left;
+.card-title {
+	font-weight: bold;
 }
 
-.toggle .content {
-    display: none;
+.navbar {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.8);
+  max-height: 3rem;
 }
 
-.toggle .content.active {
-    display: block;
-}
+@media(max-width:767px) {
+  .navbar
+  {
+	  padding: 0;
+	  background-color: rgba(250, 250, 250, 1); /* Change the color and opacity as needed */
+  }
+  .navbar-collapse {
+	background-color: rgba(250, 250, 250, 1); /* Semi-opaque backdrop color */
+	border-radius: 5px; /* Optional: Add rounded corners to the backdrop */
+  }
+  .navbar-nav {
+	  text-align: center; /* Center-align the menu items */
+	  width: 100%;
+	  padding-left: 0;
+	  padding-right: 0;
+	}
+}	
 
-.toggle h3:before {
-    content: "";
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 0;
-    height: 0;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
-    border-top: 6px solid #000;
-}
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+  .white-title {
+    font-size: 4vw; /* Adjust the font size using viewport width */
+    margin-bottom: 10px; /* Reduce margin for smaller screens */
+    padding-top: 10px; /* Adjust padding for smaller screens */
+  }
 
-.toggle.active h3:before {
-    border-top: 0;
-    border-bottom: 6px solid #000;
-}
+  .white-paragraph {
+    font-size: 3vw; /* Adjust the font size using viewport width */
+  }
 
-/* Initially hide the triangles */
-.toggle .triangle {
-    display: inline-block;
-    width: 0;
-    height: 0;
-    border-top: 5px solid transparent;
-    border-left: 5px solid transparent;
-    border-right: 5px solid #000; /* Triangle initially facing right */
-    transform: rotate(0deg);
-    transition: transform 0.3s;
-    margin-left: 10px; /* Move the triangle to the right end */
-}
-
-/* Show the triangle when the content is active and rotate it 180 degrees */
-.toggle.active .triangle {
-    transform: rotate(90deg);
-}
-
-.grid-layout {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-}
-
-.grid-cell {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.grid-cell img {
-    max-width: 100%; /* Ensure images fit within the cell */
-    height: auto; /* Maintain aspect ratio */
-}
-
-.grid-text {
-	text-align: left;
-}
-
-#contact-button {
-    background-color: #4950BC;
-    color: #fff;
-    padding: 10px 20px;
-    border: 1px solid #4950BC;
-    border-radius: 10px;
-    cursor: pointer;
-    display: block;
-    margin: 0 auto;
-    transition: background-color 0.3s;
-	transform: scale(1.25);
+  /* Optionally, you can add overflow and text wrap properties if needed */
+  .white-paragraph {
+    overflow: auto;
+    text-overflow: ellipsis; /* Truncate text with ellipsis if it overflows */
+    white-space: nowrap; /* Prevent line breaks */
+  }
 }
