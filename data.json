@@ -1,0 +1,41 @@
+{
+  "October_29_2023": {
+    "date": "October 29, 2023",
+    "sp_image": "img/10_29_23/S&P_500.jpg",
+    "dow_jones_image": "img/10_29_23/Dow_Jones.jpg",
+    "sports_equity_paragraph": "The WNBA has boosted advertisers in 2023, with record viewership and increased ad effectiveness. Serena Williams' former coach shut down the newest women's soccer proposal in Saudi Arabia. A new bar called The Sports Bra opened with a mission to "liberate" women in sports. Billie Jean King sees progress in her crusade for more investment in women's sports, but says they still only get 5% of the air time compared with men.",
+    "real_estate_paragraph": "The Vietnamese real estate market has been struggling this year, with developers missing interest payments on debt amid a credit crunch. The spillover risk from the crisis has been limited so far. However, StanChart's Q3 profit slump on China real estate and banking impairments is a sign that the crisis could be having a wider impact.",
+    "companies": [
+      {
+        "logo": "logos/Oracle.png",
+        "name": "Oracle",
+        "description": "Oracle (ORCL) has been in the news lately for several reasons. The company's AI forum highlighted challenges in its cloud business, causing its stock to fall. However, Oracle is still seen as a winner from the AI boom, with strong growth in its cloud infrastructure division and plans to build superclusters with Nvidia chips. Additionally, Oracle has partnered with Nvidia to offer a new cloud service for training and deploying generative AI models. Finally, Oracle was named a Leader for the eighth consecutive year in the 2023 Gartner Magic Quadrant for Cloud HCM Suites for 1,000+ Employee Enterprises for Oracle Fusion Cloud Human Capital Management (HCM)."
+      },
+      {
+        "logo": "logos/UBS.png",
+        "name": "UBS",
+        "description": "1) UBS is halting most of its municipal bond underwriting business. 2) UBS is trying to keep its wealthy Middle Eastern clients even as some employees leave for other banks. 3) UBS Private Wealth Management's ViewPoint Partners team has been recognized by Barron's as one of the top 100 private wealth management teams in 2023. 4) UBS Wealth Management USA announced that Timothy McNutt and Narayan Pallavur joined the company's Westlake Village office."
+      },
+      {
+        "logo": "logos/Lululemon.png",
+        "name": "Lululemon",
+        "description": "Lululemon Athletica (LULU) has outperformed Nike (NKE) in the stock market over the past five years, with a 200% return compared to Nike's 46% gain. Lululemon is a growth stock that investors should buy and hold, even in a market downturn, due to its strong underlying business performance. Lululemon, a popular athletic apparel company, saw a slight decrease in its stock price during the most recent trading session. The stock closed at $396.70, which represents a decline of 1.65% compared to the previous day's closing price. Lululemon made its debut on the S&P 500 Wednesday morning. The company has made efforts to expand globally with 35 new international stores, most of which will be located in China."
+      },
+      {
+        "logo": "logos/Google.png",
+        "name": "Google",
+        "description": "1) SoFi Technologies Inc. reported better-than-expected third-quarter revenue, helped by strong growth in its lending business. 2) The United Auto Workers union has reached a tentative agreement with Stellantis, averting a strike at the automaker. 3) Sundar Pichai, the CEO of Alphabet Inc. and its subsidiary Google, will testify on Monday in a major antitrust lawsuit brought by the U.S. government. 4) Google parent company Alphabet (GOOG, GOOGL) shares fell 9% in premarket trading on Tuesday, Oct. 25, after the company reported its third-quarter earnings."
+      },
+      {
+        "logo": "logos/Boeing.png",
+        "name": "Boeing",
+        "description": "1) Boeing is investigating a claim made by cybercrime group Lockbit, which says it hacked sensitive data from the aerospace giant and will release it November 2 if ransom isn't paid. 2) Boeing's defense business is struggling, with losses of $1.7 billion this year. 3) Southwest Airlines had a net income of $2.3 billion in the third quarter of 2023, compared to a net loss of $164 million in the same period last year. 4) Boeing and Southwest Airlines announced that Southwest Airlines is increasing its commitment to the 737 MAX family with an order for 108 737-7s."
+      },
+      {
+        "logo": "logos/Amazon.png",
+        "name": "Amazon",
+        "description": "1) The stock market is experiencing a correction, with Apple earnings and a Federal Reserve meeting coming up. Microsoft is outperforming other big tech companies, with strong fundamentals and a bullish outlook. 2) The Federal Reserve will decide on interest rates and release the October employment report this week. These events can affect the stock market, so investors should pay attention. Disney's stock has been declining due to concerns about its legacy media business, debt, and streaming challenges. 3) Amazon has switched to a regional fulfillment model, which has been more successful than expected. The change was made to meet the demands of online shopping during the pandemic. 4) Berkshire Hathaway, led by Warren Buffett, has invested heavily in nine large companies, making up nearly 70% of its $326 billion portfolio."
+      }
+    ]
+  },
+}
