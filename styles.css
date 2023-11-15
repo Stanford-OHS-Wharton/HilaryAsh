@@ -74,10 +74,6 @@ body {
   padding: 10px;
 }
 
-.collapse.show .dropdown-btn i {
-  transform: rotate(90deg);
-}
-
 .rotated::after {
   transform: rotate(180deg);
 }
