@@ -8,7 +8,7 @@ fetch('data.json')
     const content = data[currentDate];
 
     // Update elements in your HTML based on the fetched data
-    document.querySelector('#S&P').setAttribute('src', content.sp_image);
+    document.querySelector('#SP').setAttribute('src', content.sp_image);
     document.querySelector('#Dow_Jones').setAttribute('src', content.dow_jones_image);
 
     document.querySelector('#sports_equity_paragraph').textContent = content.sports_equity_paragraph;
