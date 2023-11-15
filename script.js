@@ -14,16 +14,19 @@ fetch('data.json')
     document.querySelector('#sports_equity_paragraph').textContent = content.sports_equity_paragraph;
     document.querySelector('#real_estate_paragraph').textContent = content.real_estate_paragraph;
 
-    const companies = content.companies;
-    companies.forEach((company, index) => {
-      const companyCard = document.querySelectorAll('.card-img-top')[index];
-      companyCard.setAttribute('src', company.logo);
+    // Update elements in your HTML based on the fetched data within the 'corporate_news' section
+    const corporateNewsSection = document.querySelector('#corporate_news');
 
-      const companyName = document.querySelectorAll('.card-title.text-center')[index];
-      companyName.textContent = company.name;
+    const companyCards = corporateNewsSection.querySelectorAll('.card-img-top');
+    const companyTitles = corporateNewsSection.querySelectorAll('.card-title.text-center');
+    const companyDescriptions = corporateNewsSection.querySelectorAll('.card-text');
 
-      const companyDescription = document.querySelectorAll('.card-text')[index];
-      companyDescription.textContent = company.description;
+    content.companies.forEach((company, index) => {
+      if (index < companyCards.length) {
+        companyCards[index].setAttribute('src', company.logo);
+        companyTitles[index].textContent = company.name;
+        companyDescriptions[index].textContent = company.description;
+      }
     });
   })
   .catch(error => {
