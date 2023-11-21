@@ -27,8 +27,8 @@ Contributions are welcome! Feel free to open issues or pull requests for enhance
 
 ## Authors
 
-- [Keshav Narang]
-- [Sumedha Katakam]
+- Keshav Narang
+- Sumedha Katakam
 
 ## License
 
