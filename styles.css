@@ -1,9 +1,23 @@
+/* Updated body padding using Bootstrap spacing utilities */
 body {
-    background-color: #f6f4f5; /* Even lighter gray background for the website */
+    background-color: #f6f4f5;
     font-family: "Poppins", sans-serif;
     color: #272525;
-    margin: 40px 80px; /* Increase horizontal margin; reduce vertical margins */
-    padding: 20px 40px; /* Increase spacing between the edges and content */
+    margin: 40px auto; /* Center the content horizontally and provide vertical margin */
+    padding: 20px; /* Apply uniform padding to all sides */
+}
+
+.first-card {
+    background-image: url('img/Header_Img.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden; /* Ensure content doesn't overflow the card */
+}
+
+.card-img-overlay {
+    position: relative;
+    z-index: 1; /* Set a higher z-index for the overlay */
 }
 
 .overlay {
@@ -14,46 +28,57 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    border-radius: 5px; /* Rounded edges for the overlay */
+    border-radius: 5px;
+    z-index: 0; /* Set a lower z-index to position behind text */
 }
 
 .white-title {
     color: #fff;
     text-align: center;
-	font-size: 60px; /* Adjust the size as needed */
-    font-weight: 700; /* Bolder text */
-	position: relative; /* Make the title relative */
-    z-index: 2; /* Set a higher z-index to appear above the overlay */
-	margin-bottom: 25px;
-	padding-top: 20px;
+    font-size: 4.5vw; /* Responsive font size based on viewport width */
+    font-weight: 700;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 2vw; /* Responsive margin */
+    padding-top: 3vw; /* Responsive padding */
 }
 
 .white-paragraph {
     color: #fff;
-	position: relative; /* Make the title relative */
-    z-index: 2; /* Set a higher z-index to appear above the overlay */
-	text-align: left;
+    position: relative;
+    z-index: 2;
+    text-align: left;
+    font-size: 2.5vw; /* Responsive font size based on viewport width */
+    margin-bottom: 3vw; /* Responsive margin */
 }
 
+/* Adjustments for all cards */
 .card {
-    border: 1px solid #888; /* A different shade of gray for the border */
-    border-radius: 10px; /* Stronger border radius */
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Slight shadow */
+    border: 1px solid #000; /* Thin black border */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+
+    /* Padding and margin adjustments as needed */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
 }
 
 .card h2 {
-    font-size: 50px; /* Adjust the size as needed */
-    font-weight: 700; /* Bolder text */
-	margin-bottom: 25px;
+    font-size: 2.5rem; /* Increase title font size */
+    font-weight: 700;
+    margin-bottom: 20px; /* Adjust margin as needed */
 }
 
 .card h3 {
-    font-size: 25px; /* Adjust the size as needed */
-    font-weight: 700; /* Bolder text */
+    font-size: 1.3rem; /* Adjust sub-card title font size */
+    font-weight: 700;
 }
 
 .card p {
-    font-size: 18px; /* Adjust the size as needed */
+    font-size: 1.2rem; /* Adjust paragraph font size */
 }
 
 .dropdown-btn {
@@ -88,12 +113,34 @@ body {
   max-height: 3rem;
 }
 
-@media(max-width:767px) {
+	
+/* For larger screens */
+@media(min-width: 768px) {
+    .white-title {
+        font-size: 3rem; /* Adjust the white title font size for larger screens */
+    }
+
+    .white-paragraph {
+        font-size: 1.6rem; /* Adjust the white paragraph font size for larger screens */
+    }
+}
+
+/* For smaller screens */
+@media(max-width: 767px) {
+    .white-title {
+        font-size: 2.5rem; /* Adjust the white title font size for smaller screens */
+    }
+
+    .white-paragraph {
+        font-size: 1.4rem; /* Adjust the white paragraph font size for smaller screens */
+    }
+	
   .navbar
   {
 	  padding: 0;
 	  background-color: rgba(250, 250, 250, 1); /* Change the color and opacity as needed */
   }
+  
   .navbar-collapse {
 	background-color: rgba(250, 250, 250, 1); /* Semi-opaque backdrop color */
 	border-radius: 5px; /* Optional: Add rounded corners to the backdrop */
@@ -104,24 +151,4 @@ body {
 	  padding-left: 0;
 	  padding-right: 0;
 	}
-}	
-
-/* Media query for smaller screens */
-@media (max-width: 767px) {
-  .white-title {
-    font-size: 4vw; /* Adjust the font size using viewport width */
-    margin-bottom: 10px; /* Reduce margin for smaller screens */
-    padding-top: 10px; /* Adjust padding for smaller screens */
-  }
-
-  .white-paragraph {
-    font-size: 3vw; /* Adjust the font size using viewport width */
-  }
-
-  /* Optionally, you can add overflow and text wrap properties if needed */
-  .white-paragraph {
-    overflow: auto;
-    text-overflow: ellipsis; /* Truncate text with ellipsis if it overflows */
-    white-space: nowrap; /* Prevent line breaks */
-  }
 }
