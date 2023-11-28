@@ -17,7 +17,7 @@ The live site can be accessed here: [Hillary's Report | Stanford OHS](https://st
 
 - Bootstrap v4.5.2
 - Font Awesome v5
-- Google Fonts (Poppins:400,700)
+- Google Fonts (Poppins)
 - jQuery v3.3.1
 - Popper.js v1.14.6
 
