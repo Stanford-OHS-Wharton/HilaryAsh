@@ -32,6 +32,6 @@ Contributions are welcome! Feel free to open issues or pull requests for enhance
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](link-to-license-file) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Stanford-OHS-Wharton/HilaryAsh/blob/main/LICENSE) file for details.
 
 ---
