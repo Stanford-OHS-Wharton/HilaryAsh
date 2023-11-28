@@ -17,7 +17,7 @@ The live site can be accessed here: [Hillary's Report | Stanford OHS](https://st
 
 - Bootstrap v4.5.2
 - Font Awesome v5
-- Google Fonts (Poppins:400,700)
+- Google Fonts (Poppins)
 - jQuery v3.3.1
 - Popper.js v1.14.6
 
@@ -32,6 +32,6 @@ Contributions are welcome! Feel free to open issues or pull requests for enhance
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](link-to-license-file) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Stanford-OHS-Wharton/HilaryAsh/blob/main/LICENSE) file for details.
 
 ---
