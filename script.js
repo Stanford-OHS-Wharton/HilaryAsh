@@ -11,20 +11,23 @@ fetch('data.json')
     document.querySelector('#Top_Gainers').setAttribute('src', content.top_gainers_image);
     document.querySelector('#Top_Losers').setAttribute('src', content.top_losers_image);
 	
+	// Assuming 'content' holds the JSON data
 	const activelyTradedTable = document.getElementById('Most_Actively_Traded_Body');
 
-    content.most_actively_traded.Company.forEach((company, index) => {
-      const row = document.createElement('tr');
-      const companyCell = document.createElement('td');
-      const changePercentageCell = document.createElement('td');
+	const mostActivelyTraded = content['November_28_2023'].most_actively_traded;
 
-      companyCell.textContent = company;
-      changePercentageCell.textContent = content.most_actively_traded['Change Percentage'][index];
+	mostActivelyTraded.Company.forEach((company, index) => {
+	  const row = document.createElement('tr');
+	  const companyCell = document.createElement('td');
+	  const changePercentageCell = document.createElement('td');
 
-      row.appendChild(companyCell);
-      row.appendChild(changePercentageCell);
+	  companyCell.textContent = company;
+	  changePercentageCell.textContent = mostActivelyTraded['Change Percentage'][index];
 
-      activelyTradedTable.appendChild(row);
+	  row.appendChild(companyCell);
+	  row.appendChild(changePercentageCell);
+
+	  activelyTradedTable.appendChild(row);
 	});
 
     document.querySelector('#sports_equity_paragraph').textContent = content.sports_equity_paragraph;

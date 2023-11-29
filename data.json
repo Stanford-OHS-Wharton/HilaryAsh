@@ -1,9 +1,24 @@
 {
   "November_28_2023": {
     "date": "November 28, 2023",
-    "top_gainers_image": "img/11_28_23/gop_gainers.png",
+    "top_gainers_image": "img/11_28_23/top_gainers.png",
     "top_losers_image": "img/11_28_23/top_losers.png",
-	"most_actively_traded": "{'Company': ['Redhill Biopharma Ltd (RDHL)', 'Micromobility.com Inc - Class A (MCOM)', 'Tesla Inc (TSLA)', 'ProShares UltraPro Short QQQ -3x Shares (SQQQ)', 'Nikola Corp (NKLA)'], 'Change Percentage': ['216.9572%', '-2.907%', '0.2676%', '0.1887%', '0.4758%']}",
+    "most_actively_traded": {
+      "Company": [
+        "Redhill Biopharma Ltd (RDHL)",
+        "Micromobility.com Inc - Class A (MCOM)",
+        "Tesla Inc (TSLA)",
+        "ProShares UltraPro Short QQQ -3x Shares (SQQQ)",
+        "Nikola Corp (NKLA)"
+      ],
+      "Change Percentage": [
+        "216.9572%",
+        "-2.907%",
+        "0.2676%",
+        "0.1887%",
+        "0.4758%"
+      ]
+    },
     "sports_equity_paragraph": "The National Women's Soccer League has agreed a four-year media deal with broadcasters ESPN, CBS, Prime Sports and Scripps' ION Network. The WNBA Finals' record viewership and increased ad effectiveness highlight women's sports as a business opportunity.",
     "real_estate_paragraph": "After a disappointing few years, Alexandria Real Estate, which focuses on life sciences properties, has seen continued success with a consensus rating of 'Strong Buy'. Over the past six months, Cohen & Steers, has remained a strong investment option.",
     "companies": [
