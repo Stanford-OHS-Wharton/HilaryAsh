@@ -66,6 +66,12 @@ body {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
 }
 
+.card-img-top {
+  max-width: 75%; /* Adjust the image width as per your preference */
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
 .card h2 {
     font-size: 2.5rem; /* Increase title font size */
     font-weight: 700;
