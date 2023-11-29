@@ -14,7 +14,7 @@ fetch('data.json')
 	// Assuming 'content' holds the JSON data
 	const activelyTradedTable = document.getElementById('Most_Actively_Traded_Body');
 
-	const mostActivelyTraded = content['November_28_2023'].most_actively_traded;
+	const mostActivelyTraded = content.most_actively_traded;
 
 	mostActivelyTraded.Company.forEach((company, index) => {
 	  const row = document.createElement('tr');
