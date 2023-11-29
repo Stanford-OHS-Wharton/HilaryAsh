@@ -13,6 +13,10 @@ The live site can be accessed here: [Hillary's Report | Stanford OHS](https://st
   - **Our Conclusions**: Allows for a brief takeaway and contact option.
 - **Dropdown Menu**: Facilitates access to archived reports by date.
 
+### AI Synthesis
+
+A template for the code that uses AI to synthesize and report on each section can be found [here](https://colab.research.google.com/drive/1Ixjf27JgUQ_eF8Yg-XJkbIcjBbazyZMs?usp=sharing).
+
 ## Dependencies
 
 - Bootstrap v4.5.2
