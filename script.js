@@ -3,7 +3,17 @@ fetch('data.json')
   .then(response => response.json())
   .then(data => {
     // Get the current date in the required format, e.g., 'October_29_2023'
-    const currentDate = 'November_28_2023'; // Replace this with your logic to get the current date
+    const currentPageFileName = window.location.pathname.split('/').pop(); // Extract the filename from the URL
+
+	let currentDate;
+
+	// Extract the date string from the filename (e.g., "November_28_2023")
+	if (currentPageFileName.includes('.html')) {
+	  currentDate = currentPageFileName.split('.')[0];
+	} else {
+	  // Set a default date here if no specific date is found in the URL
+	  currentDate = 'November_28_2023'; // Replace 'Default_Date' with your desired default date
+	}
     
     const content = data[currentDate];
 

@@ -5,6 +5,7 @@ body {
     color: #272525;
     margin: 40px auto; /* Center the content horizontally and provide vertical margin */
     padding: 20px; /* Apply uniform padding to all sides */
+	margin-bottom: 0px;
 }
 
 .first-card {
