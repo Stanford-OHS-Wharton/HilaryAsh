@@ -9,7 +9,7 @@ body {
 }
 
 .first-card {
-    background-image: url('img/Header_Img.jpg');
+    background-image: url('../img/Header_Img.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
