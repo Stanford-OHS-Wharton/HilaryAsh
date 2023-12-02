@@ -40,7 +40,52 @@
       {
         "logo": "logos/Amazon.png",
         "name": "Amazon",
-        "description": "Amazon sold 1 billion items in just 11 days of promotional deals this November and expects 'millions more deals' to come during the holiday season. Amazon is also working on new AI chips and a chatbot for businesses and announced a partnership with Nvidia to build the world's fastest GPU-powered AI supercomputer. Amazon has also integrated Cisco ThousandEyes and Amazon CloudWatch Internet Monitor (CWIM), a new Internet monitoring service from AWS, to offers customers with 'unparalleled visibility into their cloud deployments, enabling them to deliver unmatched optimized digital experiences'."
+        "description": "Amazon sold 1 billion items in just 11 days of promotional deals this November and expects 'millions more deals' to come during the holiday season. Amazon is also working on new AI chips and a chatbot for businesses and announced a partnership with Nvidia to build the world's fastest GPU-powered AI supercomputer. Amazon has also integrated Cisco ThousandEyes and Amazon CloudWatch Internet Monitor (CWIM), a new Internet monitoring service from AWS, to offers customers with 'unparalleled visibility into their cloud deployments, enabling them to deliver unmatched optimized digital experiences."
+      }
+    ]
+  },
+  "December_02_2023": {
+    "date": "December 2, 2023",
+    "top_gainers_image": "img/12_02_23/top_gainers.png",
+    "top_losers_image": "img/12_02_23/top_losers.png",
+    "most_actively_traded": {	  
+	  "Company": [
+		"Bit Brother Ltd - Class A (BETS)", 
+		"Green Giant Inc (GGE)", "
+		"ProShares UltraPro Short QQQ -3x Shares (SQQQ)", 
+		"Tesla Inc (TSLA)", 
+		"Pfizer Inc (PFE)"
+	  ], 
+	  "Change Percentage": [
+		"43.1734%", 
+		"66.4301%", 
+		"-0.7803%", 
+		"-0.5207%", 
+		"-5.1739%"
+	  ]
+	},
+    "sports_equity_paragraph": "Thirty-two female athletes at the University of Oregon filed a federal lawsuit against the school alleging Title IX violations in women's sports. Elite women's sports will generate revenue of $1.28 billion in 2024, up 300% from three years ago.",
+    "real_estate_paragraph": "The Sun Belt is a hot market currently for investors; a joint venture raised $309 million to invest in real estate in the Sun Belt. HGTV's Hilary Farr is leaving the show Love It or List It after 19 seasons.",
+    "companies": [
+      {
+        "logo": "logos/Costco.png",
+        "name": "Costco",
+        "description": "As Costco is a popular destination for holiday shoppers, the company has been reporting strong sales growth in recent months. In November, Costco's same-store sales rose by 4.4%, compared with 3.4% in October. The company also reported a 5.1% increase in net sales for the retail month of November."
+      },
+      {
+        "logo": "logos/Boeing.png",
+        "name": "Boeing",
+        "description": "Boeing shares rose 1.2% to $235.20 in afternoon trading, and the stock is up 11.5% year-to-date. Canada and the United States reached a deal to buy up to 16 Boeing aircraft as part of a C$10.4 billion ($7.7 billion) project. The investment to replace Canada's aging fleet of military surveillance planes includes a $5.9 billion sole-sourced deal for P-8A Poseidon aircraft and related equipment."
+      },
+      {
+        "logo": "logos/Google.png",
+        "name": "Google",
+        "description": "Alphabet (GOOG) is a remarkably successful investment that has outperformed the S&P 500 and Nasdaq Composite index (up 681% compared to investing in the Nasdaq Composite index over the same timeframe). AI remains a decade-defining trend, and as the stock arket tends to rise in December, these growth stocks could further benefit from holiday spending."
+      },
+      {
+        "logo": "logos/UBS.png",
+        "name": "UBS",
+        "description": "UBS announced, on November 30, that Charlie Medelberg and Stacey Koziatek, The Medelberg Group, have joined the firm as Financial Advisors. They join the UBS Midwest Wealth Management Market, managed by Michael Mimick, and will be located in the Chesterfield, MO office, reporting to Gary Wideman. Together, Charlie and Stacy manage $275 million in client assets and have over 60 years of experience advising high-net-worth individuals, families and businesses."
       }
     ]
   }
