@@ -142,6 +142,10 @@ body {
         font-size: 1.4rem; /* Adjust the white paragraph font size for smaller screens */
     }
 	
+	.hide-on-mobile {
+		display: none;
+	}
+	
   .navbar
   {
 	  padding: 0;
