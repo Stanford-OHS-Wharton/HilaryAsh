@@ -44,6 +44,7 @@
       }
     ]
   },
+  
   "December_02_2023": {
     "date": "December 2, 2023",
     "top_gainers_image": "https://stanford-ohs-wharton.github.io/HilaryAsh/img/12_02_23/top_gainers.png",
@@ -86,6 +87,52 @@
         "logo": "https://stanford-ohs-wharton.github.io/HilaryAsh/logos/UBS.png",
         "name": "UBS",
         "description": "UBS announced, on November 30, that Charlie Medelberg and Stacey Koziatek, The Medelberg Group, have joined the firm as Financial Advisors. They join the UBS Midwest Wealth Management Market, managed by Michael Mimick, and will be located in the Chesterfield, MO office, reporting to Gary Wideman. Together, Charlie and Stacy manage $275 million in client assets and have over 60 years of experience advising high-net-worth individuals, families and businesses."
+      }
+    ]
+  },
+  
+  "December_5_2023": {
+    "date": "December 5, 2023",
+    "top_gainers_image": "https://stanford-ohs-wharton.github.io/HilaryAsh/img/12_05_23/top_gainers.png",
+    "top_losers_image": "https://stanford-ohs-wharton.github.io/HilaryAsh/img/12_05_23/top_losers.png",
+    "most_actively_traded": {
+		"Company": [
+			"Bit Brother Ltd - Class A (BETS)", 
+			"Esports Entertainment Group Inc (GMBL)", 
+			"Energy Vault Holdings Inc - Class A (NXU)", 
+			"Meiwu Technology Company Ltd (WNW)", 
+			"Tesla Inc (TSLA)"
+		], 
+		"Change Percentage": [
+			"-51.7291%", 
+			"-7.5269%", 
+			"-6.5934%", 
+			"11.1111%", 
+			"1.3329%"
+		]
+	},
+    "sports_equity_paragraph": "While equity in women's sports has changed dramatically in the last two days, as the year closes out, we revisit one of the largest pieces of news in this industry over the last few months. The International Olympic Committee (IOC) has renewed its partnership with UN Women. The new Memorandum of Understanding (MoU), which was signed by IOC President Thomas Bach and UN Women Executive Director Sima Bahous during a meeting in New York, extends a partnership that began in 2012 and was extended for the first time in 2017.",
+    "real_estate_paragraph": " The real estate market saw a significant increase in investment activity over the past month. Both domestic and foreign investors have shown a keen interest in the sector, with a particular focus on residential and commercial properties. Illinois, in particular, has a growing real estate market, with average home values ranging from around $65,000 to upwards of $400,000 in counties throughout the state. The rise in investment is largely attributed to the growing demand for housing, the stable economic conditions, and favorable government policies, which have created an attractive environment for investors.",
+    "companies": [
+      {
+        "logo": "https://stanford-ohs-wharton.github.io/HilaryAsh/logos/Cisco.png",
+        "name": "Cisco",
+        "description": "Cisco unveiled the Cisco AI Assistant for Security, marking a major step in making artificial intelligence (AI) pervasive in the Security Cloud. John Chambers, Former CEO, warns of AI fallout ahead but says the technology is unstoppable. The outlook for CSCO stock depends on trends for cloud computing, plus corporate and telecom networks amid the shift to remote work."
+      },
+      {
+        "logo": "https://stanford-ohs-wharton.github.io/HilaryAsh/logos/Lululemon.png",
+        "name": "Lululemon",
+        "description": "Lululemon (LULU) stock has been on a tear, advancing more than 40% over the past year. However, many analysts (especially from Wells Fargo) are now downgrading the stock, citing softening US consumer demand. The stock's next test will come with third quarter earnings, set to be reported on Thursday. Investors, many of whom have raised their price targets, will pay attention to comments on sales trends and consumer health."
+      },
+      {
+        "logo": "https://stanford-ohs-wharton.github.io/HilaryAsh/logos/Oracle.png",
+        "name": "Oracle",
+        "description": "Oracle (ORCL) has been recognized as a Leader in the IDC MarketScape: U.S. Value-Based Health Analytics 2023 Vendor Assessment. The company will release its second quarter fiscal year 2024 results on Monday, December 11th, after the close of the market. In the latest trading session, Oracle closed at $115.78, marking a -1.18% move from the previous day. Despite the recent decline, Oracle has outperformed the broader market this year, with its shares up over 10% year-to-date."
+      },
+      {
+        "logo": "https://stanford-ohs-wharton.github.io/HilaryAsh/logos/Amazon.png",
+        "name": "Amazon",
+        "description": "After a tough 2022, Amazon is fighting its way back to strong growth and profitability with Amazon Web Services as the key to the tech giant's growth in 2024. Amazon has been lobbying politicians and cultivating support from nonprofits to fight against environmental regulations and labor organizers. The company's shares have rallied on the news, raising the question of whether it's got much more upside."
       }
     ]
   }
