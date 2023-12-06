@@ -1,8 +1,8 @@
 {
   "November_28_2023": {
     "date": "November 28, 2023",
-    "top_gainers_image": "img/11_28_23/top_gainers.png",
-    "top_losers_image": "img/11_28_23/top_losers.png",
+    "top_gainers_image": "https://stanford-ohs-wharton.github.io/HilaryAsh/img/11_28_23/top_gainers.png",
+    "top_losers_image": "https://stanford-ohs-wharton.github.io/HilaryAsh/img/11_28_23/top_losers.png",
     "most_actively_traded": {
       "Company": [
         "Redhill Biopharma Ltd (RDHL)",
@@ -23,22 +23,22 @@
     "real_estate_paragraph": "After a disappointing few years, Alexandria Real Estate, which focuses on life sciences properties, has seen continued success with a consensus rating of 'Strong Buy'. Over the past six months, Cohen & Steers, has remained a strong investment option.",
     "companies": [
       {
-        "logo": "logos/Cisco.png",
+        "logo": "https://stanford-ohs-wharton.github.io/HilaryAsh/logos/Cisco.png",
         "name": "Cisco",
         "description": "Cisco announced new integrations between Cisco ThousandEyes and Amazon CloudWatch Internet Monitor (CWIM), a new Internet monitoring service from Amazon Web Services (AWS). Cisco also announced new business metrics in Cisco Cloud Observability to enhance business context for modern applications running on Amazon Web Services (AWS). Cisco will host its 2023 Annual Meeting of Stockholders on Wednesday, December 6, 2023, beginning at 8:00 a.m. PST via audio webcast. Participants will include Cisco Chair and CEO Chuck Robbins."
       },
       {
-        "logo": "logos/Lululemon.png",
+        "logo": "https://stanford-ohs-wharton.github.io/HilaryAsh/logos/Lululemon.png",
         "name": "Lululemon",
         "description": "Lululemon (LULU) closed at $435.77 in the latest trading session, marking a +0.93% move. Lululemon Athletica's (NASDAQ:LULU) stock is up by a considerable 18% over the past three months despite the market currently experiencing a downturn. Lululemon (LULU) will release its financial results for the third quarter fiscal 2023 on Thursday, December 7, 2023. The company will host a conference call at 4:30 p.m. Eastern time to discuss the financial results."
       },
       {
-        "logo": "logos/Oracle.png",
+        "logo": "https://stanford-ohs-wharton.github.io/HilaryAsh/logos/Oracle.png",
         "name": "Oracle",
         "description": "Oracle Corp. shareholder support for Chairman Larry Ellison increased in the past year as the company’s cloud infrastructure business grew rapidly. Oracle Corporation (ORCL) has been growing rapidly in recent years, and its stock price has increased by over 10% in the past couple of months. Oracle is also currently a popular investment among hedge funds, and it is one of the stocks that Bill Gates has recently added to his portfolio."
       },
       {
-        "logo": "logos/Amazon.png",
+        "logo": "https://stanford-ohs-wharton.github.io/HilaryAsh/logos/Amazon.png",
         "name": "Amazon",
         "description": "Amazon sold 1 billion items in just 11 days of promotional deals this November and expects 'millions more deals' to come during the holiday season. Amazon is also working on new AI chips and a chatbot for businesses and announced a partnership with Nvidia to build the world's fastest GPU-powered AI supercomputer. Amazon has also integrated Cisco ThousandEyes and Amazon CloudWatch Internet Monitor (CWIM), a new Internet monitoring service from AWS, to offers customers with 'unparalleled visibility into their cloud deployments, enabling them to deliver unmatched optimized digital experiences."
       }
@@ -46,8 +46,8 @@
   },
   "December_02_2023": {
     "date": "December 2, 2023",
-    "top_gainers_image": "img/12_02_23/top_gainers.png",
-    "top_losers_image": "img/12_02_23/top_losers.png",
+    "top_gainers_image": "https://stanford-ohs-wharton.github.io/HilaryAsh/img/12_02_23/top_gainers.png",
+    "top_losers_image": "https://stanford-ohs-wharton.github.io/HilaryAsh/img/12_02_23/top_losers.png",
     "most_actively_traded": {	  
 	  "Company": [
 		"Bit Brother Ltd - Class A (BETS)", 
@@ -68,22 +68,22 @@
     "real_estate_paragraph": "The Sun Belt is a hot market currently for investors; a joint venture raised $309 million to invest in real estate in the Sun Belt. HGTV's Hilary Farr is leaving the show Love It or List It after 19 seasons.",
     "companies": [
       {
-        "logo": "logos/Costco.png",
+        "logo": "https://stanford-ohs-wharton.github.io/HilaryAsh/logos/Costco.png",
         "name": "Costco",
         "description": "As Costco is a popular destination for holiday shoppers, the company has been reporting strong sales growth in recent months. In November, Costco's same-store sales rose by 4.4%, compared with 3.4% in October. The company also reported a 5.1% increase in net sales for the retail month of November."
       },
       {
-        "logo": "logos/Boeing.png",
+        "logo": "https://stanford-ohs-wharton.github.io/HilaryAsh/logos/Boeing.png",
         "name": "Boeing",
         "description": "Boeing shares rose 1.2% to $235.20 in afternoon trading, and the stock is up 11.5% year-to-date. Canada and the United States reached a deal to buy up to 16 Boeing aircraft as part of a C$10.4 billion ($7.7 billion) project. The investment to replace Canada's aging fleet of military surveillance planes includes a $5.9 billion sole-sourced deal for P-8A Poseidon aircraft and related equipment."
       },
       {
-        "logo": "logos/Google.png",
+        "logo": "https://stanford-ohs-wharton.github.io/HilaryAsh/logos/Google.png",
         "name": "Google",
         "description": "Alphabet (GOOG) is a remarkably successful investment that has outperformed the S&P 500 and Nasdaq Composite index (up 681% compared to investing in the Nasdaq Composite index over the same timeframe). AI remains a decade-defining trend, and as the stock arket tends to rise in December, these growth stocks could further benefit from holiday spending."
       },
       {
-        "logo": "logos/UBS.png",
+        "logo": "https://stanford-ohs-wharton.github.io/HilaryAsh/logos/UBS.png",
         "name": "UBS",
         "description": "UBS announced, on November 30, that Charlie Medelberg and Stacey Koziatek, The Medelberg Group, have joined the firm as Financial Advisors. They join the UBS Midwest Wealth Management Market, managed by Michael Mimick, and will be located in the Chesterfield, MO office, reporting to Gary Wideman. Together, Charlie and Stacy manage $275 million in client assets and have over 60 years of experience advising high-net-worth individuals, families and businesses."
       }
