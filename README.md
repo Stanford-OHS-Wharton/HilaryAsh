@@ -1,6 +1,6 @@
 # Hillary's Report | Stanford OHS
 
-This project hosts a live investment report platform developed by the Stanford OHS Investmnet team for Hilary Ash.
+This project hosts a live investment report platform developed by the Stanford OHS Investment team for Hilary Ash.
 
 The live site can be accessed here: [Hillary's Report | Stanford OHS](https://stanford-ohs-wharton.github.io/HilaryAsh/)
 
