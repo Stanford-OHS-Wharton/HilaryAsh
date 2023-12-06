@@ -93,8 +93,8 @@
   
   "December_05_2023": {
     "date": "December 5, 2023",
-    "top_gainers_image": "12_05_23/top_gainers.png",
-    "top_losers_image": "12_05_23/top_losers.png",
+    "top_gainers_image": "https://stanford-ohs-wharton.github.io/HilaryAsh/img/12_05_23/top_gainers.png",
+    "top_losers_image": "https://stanford-ohs-wharton.github.io/HilaryAsh/img/12_05_23/top_losers.png",
     "most_actively_traded": {
 		"Company": [
 			"Bit Brother Ltd - Class A (BETS)", 
@@ -115,17 +115,17 @@
     "real_estate_paragraph": " The real estate market saw a significant increase in investment activity over the past month. Both domestic and foreign investors have shown a keen interest in the sector, with a particular focus on residential and commercial properties. Illinois, in particular, has a growing real estate market, with average home values ranging from around $65,000 to upwards of $400,000 in counties throughout the state. The rise in investment is largely attributed to the growing demand for housing, the stable economic conditions, and favorable government policies, which have created an attractive environment for investors.",
     "companies": [
       {
-        "logo": "logos/Cisco.png",
+        "logo": "https://stanford-ohs-wharton.github.io/HilaryAsh/logos/Cisco.png",
         "name": "Cisco",
         "description": "Cisco unveiled the Cisco AI Assistant for Security, marking a major step in making artificial intelligence (AI) pervasive in the Security Cloud. John Chambers, Former CEO, warns of AI fallout ahead but says the technology is unstoppable. The outlook for CSCO stock depends on trends for cloud computing, plus corporate and telecom networks amid the shift to remote work."
       },
       {
-        "logo": "Lululemon.png",
+        "logo": "https://stanford-ohs-wharton.github.io/HilaryAsh/logos/Lululemon.png",
         "name": "Lululemon",
         "description": "Lululemon (LULU) stock has been on a tear, advancing more than 40% over the past year. However, many analysts (especially from Wells Fargo) are now downgrading the stock, citing softening US consumer demand. The stock's next test will come with third quarter earnings, set to be reported on Thursday. Investors, many of whom have raised their price targets, will pay attention to comments on sales trends and consumer health."
       },
       {
-        "logo": "logos/Oracle.png",
+        "logo": "https://stanford-ohs-wharton.github.io/HilaryAsh/logos/Oracle.png",
         "name": "Oracle",
         "description": "Oracle (ORCL) has been recognized as a Leader in the IDC MarketScape: U.S. Value-Based Health Analytics 2023 Vendor Assessment. The company will release its second quarter fiscal year 2024 results on Monday, December 11th, after the close of the market. In the latest trading session, Oracle closed at $115.78, marking a -1.18% move from the previous day. Despite the recent decline, Oracle has outperformed the broader market this year, with its shares up over 10% year-to-date."
       },
