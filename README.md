@@ -7,13 +7,13 @@ The live site can be accessed here: [Hillary's Report | Stanford OHS](https://st
 ## Features
 
 - **Sections**:
-  - **Financial Trends**: Displays S&P and Dow Jones updates.
-  - **Investment Industries**: Provides sections for Sports Equity and Real Estate insights.
-  - **Corporate News**: Showcases news updates for various companies.
-  - **Our Conclusions**: Allows for a brief takeaway and contact option.
+  - **Financial Trends**: Displays most traded, top gainers, and top losers (NASDAQ).
+  - **Investment Industries**: Provides insights into Sports Equity and Real Estate changes.
+  - **Corporate News**: Showcases news updates for various companies we're looking at.
+  - **Contact**: Allows transparency in our investments
 - **Dropdown Menu**: Facilitates access to archived reports by date.
 
-### AI Synthesis
+### Artificial Intelligence Research and Synthesis
 
 A template for the code that uses AI to synthesize and report on each section can be found [here](https://colab.research.google.com/drive/1Ixjf27JgUQ_eF8Yg-XJkbIcjBbazyZMs?usp=sharing).
 
