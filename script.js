@@ -1,5 +1,5 @@
 // Fetch data from JSON file
-fetch('data.json')
+fetch('https://stanford-ohs-wharton.github.io/HilaryAsh/data.json')
   .then(response => response.json())
   .then(data => {
     // Get the current date in the required format, e.g., 'October_29_2023'
