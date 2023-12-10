@@ -14,6 +14,14 @@ fetch(" https://stanford-ohs-wharton.github.io/HilaryAsh/data.json ")
 	  // Set a default date here if no specific date is found in the URL
 	  currentDate = 'December_09_2023'; // Replace 'Default_Date' with your desired default date
 	}
+	
+	var today = new Date();
+
+	// Format the date as needed (MM/DD/YYYY)
+	var formattedDate = (today.getMonth() + 1) + '/' + today.getDate() + '/' + today.getFullYear();
+
+	// Set the formatted date to the HTML element with id="dynamic-date"
+	document.getElementById('dynamic-date').innerText = "Hillary's Daily Brief: " + formattedDate;
     
     const content = data[currentDate];
 
