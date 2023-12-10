@@ -12,7 +12,7 @@ fetch(" https://stanford-ohs-wharton.github.io/HilaryAsh/data.json ")
 	  currentDate = currentPageFileName.split('.')[0];
 	} else {
 	  // Set a default date here if no specific date is found in the URL
-	  currentDate = 'December_05_2023'; // Replace 'Default_Date' with your desired default date
+	  currentDate = 'December_09_2023'; // Replace 'Default_Date' with your desired default date
 	}
     
     const content = data[currentDate];

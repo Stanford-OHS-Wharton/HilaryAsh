@@ -135,5 +135,51 @@
         "description": "After a tough 2022, Amazon is fighting its way back to strong growth and profitability with Amazon Web Services as the key to the tech giant's growth in 2024. Amazon has been lobbying politicians and cultivating support from nonprofits to fight against environmental regulations and labor organizers. The company's shares have rallied on the news, raising the question of whether it's got much more upside."
       }
     ]
+  },
+  
+  "December_09_2023": {
+    "date": "December 9, 2023",
+    "top_gainers_image": "https://stanford-ohs-wharton.github.io/HilaryAsh/img/12_09_23/top_gainers.png",
+    "top_losers_image": "https://stanford-ohs-wharton.github.io/HilaryAsh/img/12_09_23/top_losers.png",
+    "most_actively_traded": {
+		"Company": [
+			"Bit Brother Ltd - Class A (BETS)", 
+			"Nikola Corp (NKLA)", 
+			"Esports Entertainment Group Inc (GMBL)", 
+			"ProShares UltraPro Short QQQ -3x Shares (SQQQ)", 
+			"Tesla Inc (TSLA)"
+		], 
+		"Change Percentage": [
+			"-25.9067%", 
+			"-5.0492%", 
+			"-7.5%", 
+			"-1.1987%", 
+			"0.4946%"
+		]
+	},
+    "sports_equity_paragraph": "House Republicans are planning to launch a second legislative effort, the \"Save Women's Sports Act\" to ban transgender women and girls from competing on female school sports (including intramural) teams, cementing the issue as a priority for the Grand Old Party (GOP) ahead of 2024.",
+    "real_estate_paragraph": "The Real Estate Select Sector SPDR Fund ETF is the most well-positioned sector from an RRG perspective. Interest rates plunged since October, but mortgage rates have risen, leading to a decrease in demand for housing and a slowdown in home sales. The rental market remains strong, however, with high demand and rising rents.",
+    "companies": [
+      {
+        "logo": "https://stanford-ohs-wharton.github.io/HilaryAsh/logos/Costco.png",
+        "name": "Costco",
+        "description": "Costco remains a popular warehouse club with loyal members and a unique business model deriving over half of its profit from membership sales, prioritizing customer satisfaction and value. As holiday season shopping reaches its prime, the company has been in the spotlight as investors and analysts anticipate its upcoming earnings report, with expectations of a likely earnings beat."
+      },
+      {
+        "logo": "https://stanford-ohs-wharton.github.io/HilaryAsh/logos/Boeing.png",
+        "name": "Boeing",
+        "description": "Boeing's stock price are showing a slight increase as Cathay Pacific, Hong Kong's flagship carrier, placed a significant order for six Airbus A350 freighters, replacing its aging Boeing 747 cargo jets. However, the U.S. military grounded its entire fleet of V-22 Ospreys after a deadly crash, raising concerns about the aircraft's safety."
+      },
+      {
+        "logo": "https://stanford-ohs-wharton.github.io/HilaryAsh/logos/Google.png",
+        "name": "Google",
+        "description": "Google introduced its new flagship multimodal AI model, Gemini, but it faced criticism for not meeting initial expectations. However, experts still suggest investing in AI-related stocks like Alphabet and Microsoft for 2024, even while the EU moves forward with regulating AI. Thor Equities, known for its real estate investments, recently hired Google's former head of data center acquisitions."
+      },
+      {
+        "logo": "https://stanford-ohs-wharton.github.io/HilaryAsh/logos/UBS.png",
+        "name": "UBS",
+        "description": "UBS hired Tommy Rueger from JPMorgan as global co-head of equity capital markets and incurred $400 million in real estate costs related to its acquisition of Credit Suisse, including breaking leases on former Credit Suisse offices. UBS formally began integrating Credit Suisse's parent bank, a merger of two global systemically important banks, and UBS Asset Management is prioritizing existing infrastructure investments in the current challenging dealmaking environment."
+      }
+    ]
   }
 }
