@@ -25,7 +25,7 @@ fetch(" https://stanford-ohs-wharton.github.io/HilaryAsh/data.json ")
 	var formattedDate = formattedMonth + '/' + formattedDay + '/' + formattedYear;
 
 	// Set the formatted date to the HTML element with id="dynamic-date"
-	document.getElementById('dynamic-date').innerText = "Hillary's Daily Brief: " + formattedDate;
+	document.getElementById('dynamic-date').innerText = "Hilary's Daily Brief: " + formattedDate;
 	}
 	
     const content = data[currentDate];
